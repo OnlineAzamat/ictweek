@@ -67,3 +67,40 @@ body {
   border: 1px solid #132767;
   background: linear-gradient(0deg, rgba(0, 37, 78, 0.34) 0%, rgba(0, 37, 78, 0.34) 100%), radial-gradient(43.92% 43.92% at 50% 105.74%, #0F34AB 0%, #061545 100%);
 }
+
+.programm {
+  border-radius: 18px;
+  border: 1px solid #132767;
+  background: linear-gradient(0deg, rgba(0, 37, 78, 0.34) 0%, rgba(0, 37, 78, 0.34) 100%), radial-gradient(43.92% 43.92% at 50% 105.74%, #0F34AB 0%, #061545 100%);
+  background-image: url('/public/programm.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 50px;
+}
+
+.nav-item {
+  border-radius: 9px;
+}
+
+.nav-item.active {
+  background-color: #00D8FF;
+}
+
+.nav-link {
+  color: white;
+  border-radius: 9px;
+  padding: 10px 30px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.programm-in {
+  background: radial-gradient(133.22% 134.01% at 29.15% -8.68%, #00D8FF 0%, rgba(0, 106, 125, 0.00) 100%);
+  border-radius: 9px;
+}
+.programm-line {
+  width: 64px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #ABF2FF;
+}
