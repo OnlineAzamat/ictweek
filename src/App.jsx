@@ -6,6 +6,7 @@ import Catalog from './components/Catalog'
 import './App.css'
 import Speaker from './components/Speaker'
 import Program from './components/Program'
+import Useful from './components/Useful'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Stat />
       <Speaker />
       <Program />
+      <Useful />
     </div>
   )
 }

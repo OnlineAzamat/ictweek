@@ -75,7 +75,6 @@ body {
   background-image: url('/public/programm.png');
   background-position: center;
   background-repeat: no-repeat;
-  padding: 100px 50px;
 }
 
 .nav-item {
@@ -103,4 +102,11 @@ body {
   height: 6px;
   border-radius: 3px;
   background-color: #ABF2FF;
+}
+
+/* useful */
+
+.useful-link a {
+  border: 1px solid #132767;
+  background: var(--Grad, linear-gradient(90deg, #0028AC 0%, rgba(0, 40, 172, 0.00) 100%));
 }

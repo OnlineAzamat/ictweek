@@ -11,11 +11,11 @@ const Program = () => {
   }
 
   return (
-    <section className="programm mt-16 mx-3">
+    <section className="programm mt-16 mx-3 px-[50px] py-[100px] max-sm:p-4">
       <div className="container">
-        <div className="programm-head flex items-center justify-between">
-          <div className="mt-3 mr-2">
-            <span className="text-white text-4xl uppercase font-bold">ПРОГРАММА</span>
+        <div className="programm-head flex items-center justify-between max-sm:flex-wrap">
+          <div className="mt-3 mr-2 max-sm:mt-0">
+            <span className="text-white text-4xl uppercase font-bold max-sm:text-2xl">ПРОГРАММА</span>
           </div>
           <div className="mt-3">
             <div className="programm-date">
@@ -41,18 +41,18 @@ const Program = () => {
             </div>
           </div>
         </div>
-        <div className="program-body grid grid-cols-4 gap-8 max-md:grid-cols-2 max-sm:grid-cols-1">
+        <div className="program-body grid grid-cols-4 gap-8 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:gap-2">
           {
             program[programId].map((res, index) => {
               return (
                 <div className="programm-in mt-4 p-4" key={index}>
                   <div class="flex items-center">
                     <img src="https://ictweek.uz/img/calendar-clock-blue.svg" alt="alter" />
-                    <span class="ml-3 font-semibold text-white text-2xl">{res.time}</span>
+                    <span class="ml-3 font-semibold text-white text-2xl max-sm:text-md">{res.time}</span>
                   </div>
                   <div className="programm-line mt-4"></div>
                   <div className="mt-4">
-                    <span class="text-white text-2xl xl:h-[150px]">{res.title}</span>
+                    <span class="text-white text-2xl xl:h-[150px] max-sm:text-xl">{res.title}</span>
                   </div>
                   <div className="flex mt-4">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
