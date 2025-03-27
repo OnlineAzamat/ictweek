@@ -110,3 +110,8 @@ body {
   border: 1px solid #132767;
   background: var(--Grad, linear-gradient(90deg, #0028AC 0%, rgba(0, 40, 172, 0.00) 100%));
 }
+
+.footer {
+  border: 1px solid #132767;
+  background: radial-gradient(227.57% 248.13% at 40.47% -78.62%, #00D8FF 0%, #002088 47.12%, #031B6B 94.91%);
+}
